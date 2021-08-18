@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@200&family=Permanent+Marker&family=Pacifico&family=Yellowtail&family=Itim&family=Merienda:wght@400;700&display=swap');
+
+/* 
+font-family: 'Itim', cursive;
+font-family: 'Merienda', cursive; 
+font-family: 'Yellowtail', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Mali', cursive;
+*/
+body{
+    background-color: #d1d1d1;
+}
+h1{
+    background-color: #23a3a3;
+    color: #ffffff;
+    font-family: 'Itim', cursive;
+    border-radius: 5px;
+}
+
+h2{
+    background-color: #a36123;
+    color: #ffffff;
+    font-family: 'Merienda', cursive; 
+    border-radius: 5px;
+}
+h3{
+    background-color: #3da323;
+    color: #ffffff;
+    font-family: 'Yellowtail', cursive;
+    border-radius: 5px;
+}
+h4{
+    background-color: #9823a3;
+    color: #ffffff;
+    font-family: 'Pacifico', cursive;
+    border-radius: 5px;
+}
+h5{
+    background-color: #a32363;
+    color: #ffffff;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 5px;
+}
+h6{
+    background-color: #a32323;
+    color: #ffffff;
+    font-family: 'Mali', cursive;
+    border-radius: 5px;
+}
+h1::selection, h2::selection,
+h3::selection, h4::selection,
+h5::selection, h6::selection{
+    background: #f6fdfd80;
+}
